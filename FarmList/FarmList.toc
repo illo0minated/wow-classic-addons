@@ -1,0 +1,5 @@
+## Interface: 30300
+## Title: FarmList by Unresistable
+## Notes: An addon providing you with information about what resources you need to farm or buy to stock your consumables before the next raid.
+FarmList.lua
+FarmList.xml
