@@ -6,7 +6,9 @@
         {
             "label": "Debug",
             "type": "shell",
-            "command": "./scripts/Debug.cmd",
+            "windows": {
+                "command": "${workspaceFolder}\\.vscode\\scripts\\Debug.cmd",
+            },            
             "problemMatcher": [],
             "group": {
                 "kind": "build",
