@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Deploy" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>FarmListBasic</Name>
+    <ProjectGuid>58358457-ceab-4bcb-88b3-ac3aa6e74f98</ProjectGuid>
+    <AssemblyName>FarmListBasic</AssemblyName>
+    <RootNamespace>FarmListBasic</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Basics.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="FarmListBasic.toc">
+      <SubType>TableOfContents</SubType>
+    </Content>
+    <Content Include="FarmListBasic.xml">
+      <SubType>Frame</SubType>
+    </Content>
+    <Content Include="FarmListBasic.lua">
+      <SubType>Code</SubType>
+      <DependentUpon>FarmListBasic.xml</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(DevEnvDir)\Extensions\Tools\MSBuild\AddonStudio\Wow\3.0\WowAddonStudio.targets" />
+  <!--
+  To modify your build process, add your task inside one of the targets below and uncomment it.
+  <Target Name="BeforeClean"></Target>
+  <Target Name="AfterClean"></Target>
+  <Target Name="BeforeRebuild"></Target>
+  <Target Name="AfterRebuild"></Target>
+  <Target Name="BeforeDeploy"></Target>
+  <Target Name="AfterDeploy"></Target>
+  -->
+</Project>

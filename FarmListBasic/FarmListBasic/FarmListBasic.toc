@@ -1,0 +1,6 @@
+## Title: FarmListBasic
+## Version: 1.0
+## Author: illoOminated
+## Interface: 80205
+
+FarmListBasic.xml
