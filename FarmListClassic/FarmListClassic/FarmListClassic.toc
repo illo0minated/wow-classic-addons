@@ -3,9 +3,10 @@
 ## Version: 1.0
 ## Author: illoOminated
 
-SavedVariables FarmListDB
+## SavedVariables: FarmListData
 
 embeds.xml
 
-FarmListClassic.lua
 FarmListDB.lua
+FarmListModel.lua
+FarmListClassic.lua

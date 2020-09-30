@@ -25,6 +25,9 @@
     <Content Include="FarmListDB.lua">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="FarmListModel.lua">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Libs/LibStub/LibStub.lua">
       <SubType>Code</SubType>
     </Content>
